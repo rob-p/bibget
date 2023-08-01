@@ -2,7 +2,7 @@ use clap::Parser;
 use std::fs::OpenOptions;
 use std::io::Write;
 
-#[derive(Parser)]
+#[derive(Parser, Debug)]
 #[clap(
     author = "Nathan Constantine-Cooke",
     version,
